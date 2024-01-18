@@ -5,6 +5,7 @@
 1. AI based Error reporting
 2. Hoffmann Compression of post body
 3. Removal to keys from JSON to reduce size.
+4. UI for DEV mode to show Loading popup when url is being loaded.
 
 
 1. AI-based Error Reporting:
@@ -15,3 +16,5 @@ One of the standout features of this HTTP package is Hoffmann Compression, speci
 
 3. Removal of Keys from JSON to Reduce Size:
 Another noteworthy feature of the HTTP package is its capability to remove unnecessary keys from JSON payloads before transmission. This optimization strategy is designed to reduce the overall size of data sent over the network. By eliminating extraneous information, this feature enhances performance and minimizes latency, resulting in a more streamlined and efficient communication process between Flutter applications and servers.
+
+4. Gives time estimate how long request is taking.
